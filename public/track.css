@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.status-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #790000;
+    color: rgb(149, 187, 212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .status-search-flight-logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: rgb(149, 177, 229);
+    text-decoration: none;
+}
+
+header .status-search-flight-login-signup button {
+    background-color: #26ff00;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+header .status-search-flight-login-signup button:hover {
+    background-color: #26ff00;
+}
+
+.status-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7a2a2;
+    padding: 20px;
+    margin: 10px;
+}
+
+.status-form-container {
+    background-color: rgb(203, 171, 171);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.status-1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.status-flightno{
+    margin-bottom: 10px;
+}
+
+.status-flightdate{
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #2761f6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;;
+}
+
+button:hover {
+    background-color: #164fdf;
+}
+
+.status-flight-status-result {
+    background-color: #d2b9b9;
+    border: 2px solid #235cec;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.status-hidden {
+    display: none;
+}
+
+footer {
+    background-color: #2259e3;
+    color: rgb(223, 165, 165);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.status-footer-section {
+    width: 20%;
+}
+
+.status-footer-section h3 {
+    border-bottom: 1px solid #dec5c5;
+    padding-bottom: 10px;
+}
+
+.status-footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.status-footer-section ul li {
+    margin: 10px 0;
+}
+
+.status-footer-section ul li a {
+    color: rgb(193, 142, 142);
+    text-decoration: none;
+}
+
+.status-footer-section ul li a:hover {
+    text-decoration: underline;
+}
